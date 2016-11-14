@@ -1,0 +1,35 @@
+{
+    "name": "culture-pn-psu/yii2-account",
+    "description": "Yii 2 for account",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/culture-pn-psu/yii2-account.git",
+        "issues": "https://github.com/culture-pn-psu/yii2-account/issues"
+    },
+    "authors": [
+        {
+            "name": "Anda Technology",
+            "email": "kuakling@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "culture-pn-psu/yii2-user":"*",
+        "karpoff/yii2-crop-image-upload": "*"        
+    },
+    "autoload": {
+        "psr-4": {
+            "culturePnPsu\\account\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
