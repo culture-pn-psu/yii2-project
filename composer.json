@@ -1,13 +1,13 @@
 {
-    "name": "culture-pn-psu/yii2-account",
-    "description": "Yii 2 for account",
+    "name": "culture-pn-psu/yii2-project",
+    "description": "Yii 2 for project",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/culture-pn-psu/yii2-account.git",
-        "issues": "https://github.com/culture-pn-psu/yii2-account/issues"
+        "source": "https://github.com/culture-pn-psu/yii2-project.git",
+        "issues": "https://github.com/culture-pn-psu/yii2-project/issues"
     },
     "authors": [
         {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "culturePnPsu\\account\\": ""
+            "culturePnPsu\\project\\": ""
         }
     },
     "extra": {
